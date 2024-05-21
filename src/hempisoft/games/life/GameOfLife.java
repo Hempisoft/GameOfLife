@@ -5,8 +5,6 @@ import java.util.Scanner;
 public class GameOfLife {
 
 	public static void main(String[] args) {
-
-		Window wind = new Window(1, 2);
 		
 		// Epic Intro
 		System.out.println("   ______                           ____   ____   __     _  ____       __\r\n"
