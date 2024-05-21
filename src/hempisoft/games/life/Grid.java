@@ -37,7 +37,7 @@ public class Grid {
 			line = "-";
 			System.out.print("|");
 			for (int i = 0; i < width; i++) {
-				System.out.print((grid[i][j].isAlive() ? "O" : "#") + "|");
+				System.out.print((grid[i][j].isAlive() ? GameOfLife.ANSI_GREEN + "O" + GameOfLife.ANSI_RESET : "#") + "|");
 			}
 			System.out.println("");
 			for (int i = 0; i < width; i++)
